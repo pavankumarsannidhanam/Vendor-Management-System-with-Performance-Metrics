@@ -9,11 +9,13 @@ This project is a Vendor Management System implemented using Django and Django R
    git clone https://github.com/your_username/your_repository.git
    cd your_repository
 2.Install Dependencies:
-pip install -r requirements.txt
+  ```bash
+  pip install -r requirements
 3.Apply migrations:
-python manage.py migrate
+  python manage.py migrate
 4.Run the development server:
-python manage.py runserver
+  ```bash
+  python manage.py runserver
 5.Access the API endpoints in your browser or using tools like Postman:
 Vendor API: http://localhost:8000/api/vendors/
 Purchase Order API: http://localhost:8000/api/purchase_orders/
